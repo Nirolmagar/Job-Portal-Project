@@ -1,0 +1,204 @@
+/* Reset styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9fafe;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+    height: 55px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #2cb1bc;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Logo styles */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #04f729;
+    margin-right: 5px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Main container */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left text content */
+.text-content {
+    max-width: 600px;
+}
+
+.main-heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.highlight {
+    color: #2cb1bc;
+}
+
+/* Right image content */
+.image-container img {
+    max-width: 400px;
+    height: auto;
+}
+
+/* Filter form styles */
+.filter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px; /* Add gap above the select dropdown */
+}
+
+.filter-select {
+    padding: 15px;
+    font-size: 18px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 350px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2cb1bc;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-button:hover {
+    background-color: #249ca6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Center filter form in jobs section */
+#jobs .filter-form {
+    justify-content: center;
+}
+
+/* Job list styles */
+.job-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Ensure exactly two jobs per row */
+    gap: 40px;
+    padding: 0;
+    list-style: none;
+    max-width: 1400px; /* Limit the width of the job list */
+    margin: 0 auto; /* Center the job list */
+}
+
+.job-item {
+    border: 1px solid #eaeaea;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #2cb1bc;
+    padding-bottom: 5px;
+}
+
+.job-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.job-item .job-location {
+    font-weight: bold;
+    color: #2cb1bc;
+    margin-bottom: 10px;
+}
+
+.job-item .job-description {
+    flex-grow: 1;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.apply-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2cb1bc;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+.apply-button:hover {
+    background-color: #249ca6;
+}

@@ -1,0 +1,100 @@
+/* Reset styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9fafe;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 5px 100px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* Logo styles */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 60px; /* Bigger size for "J" */
+    font-weight: bold;
+    color: #04f729;
+    margin-right: 5px;
+}
+
+.logo span{
+    font-size: 24px; /* Bigger text size for "Jobify" */
+    font-weight: 500;
+    color: #333;
+}
+
+/* Main container */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left text content */
+.text-content {
+    max-width: 600px;
+    height: 400px;
+}
+
+.main-heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.highlight {
+    color: #2cb1bc;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    gap: 15px;
+}
+
+.home-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2cb1bc;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #249ca6;
+}
+
+/* Right image content */
+.image-container img {
+    max-width: 400px;
+    height: auto;
+}
